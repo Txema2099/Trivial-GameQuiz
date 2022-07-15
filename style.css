@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: lightgray;
+  min-height: 100vh;
+}
+
+section.panel {
+  min-height: 100vh;
+  border: 4 px solid white;
+  display: grid;
+  place-content: center;
+}
+
+section.panel.hidden {
+  display: none;
+}
+
+section.panel.start {
+  background-color: lightblue;
+}
+
+section.panel.central {
+  color: black;
+}
+
+section.panel.end {
+  color: gray;
+}
+
+background-image: url(./pngtree-film-and-television-festival-retro-wind-camera-poster-image_218869.jpg);
+background-repeat: no-repeat;
+background-size: cover;
